@@ -9,7 +9,7 @@ header, #footer{
   padding-top: 50px;
   padding-bottom: 50px;
   opacity: 0.9;
-  color:  #ffcc00;
+  color: #7CFC00;	
 }
 
 p{
@@ -20,7 +20,7 @@ h1, h2{
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  color:   #ffcc00;
+  color: #7CFC00;	
   font-family: 'Bungee Shade', cursive;
 
 
