@@ -31,21 +31,22 @@ alias3.innerHTML = 'Concatenation';
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-var profileElement = document.getElementsByClassName('profile');
-profileElement[0].innerHTML = 'Don\'t know any lyrics.';
+var profileElem = document.getElementsByClassName('profile');
+profileElem[0].innerHTML = 'Don\'t know any lyrics.';
 
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+profileElem[1].innerHTML = 'Never waste energy on worries or negative thoughts, all problems are brought into existence– drop them';
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var aliasElem = document.getElementsByClassName('alias');
+aliasElem[2].innerHTML = 'Coach Carter, Django, and of course Pulp Fiction';
 
 /*7. Peter Griffin
 
@@ -53,7 +54,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
-
+var newElem = document.createElement('div');
+newElem.id = 'name7';
+newElem.innerHTML = 'Peter Griffin';
+nameParent.appendChild(newElem);
  
 /*8. Tim Duncan
 
