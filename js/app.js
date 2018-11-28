@@ -65,8 +65,31 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
+var duncanElem = document.createElement('div');
+duncanElem.id = 'alias8';
+duncanElem.innerHTML = 'Old Man Riverwalk';
+aliasParent.appendChild(duncanElem);
 
 
 //Final Boss
 /*9. Create your own profile.*/
+
+var customName = document.createElement('div');
+customName.id = 'name9';
+customName.innerHTML = 'Smooth Criminal';
+block3.col-sm-4.appendChild(customName);
+
+// var customName = document.createElement('div');
+// customName.id = 'name9';
+
+// var customName = document.createElement('div');
+// customName.id = 'name9';
+
+// var customName = document.createElement('div');
+// customName.id = 'name9';
+
+// var customName = document.createElement('div');
+// customName.id = 'name9';
+
+
 
